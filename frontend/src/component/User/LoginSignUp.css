@@ -158,6 +158,7 @@ font: 500;
         background-color: white;
     }
     .loginSignUpBox{
+        margin-top: 50vw;
         width: 100vw;
         height: 95vh;
     }
