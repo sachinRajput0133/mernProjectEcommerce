@@ -1,0 +1,29 @@
+.bottomNavigation{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .bottomNavigation{
+        width: 100%;
+        display: flex;
+        margin: 2rem 0;
+       
+    
+    }
+    .bottomNavigation>div{
+        background-color: #e5e5e5f0;
+        color: black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .bottomNavigation>div>button{
+        padding: 0;
+        margin: 0;
+    }
+    /* .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected{
+        color:#988f1e !important;
+    }  */
+        
+    }

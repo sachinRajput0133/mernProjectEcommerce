@@ -1,0 +1,95 @@
+
+
+.updateOrderForm{
+ 
+  
+   background-color: white;
+ 
+    margin: 5vmax 0;
+    padding: 3vmax;
+   
+
+}
+
+.updateOrderForm>div>select{
+    padding: 1vmax 4vmax;
+    /* padding-right: 1vmax; */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font: 300;
+    font-family: cursive;
+    outline: none;
+    margin-bottom: 2rem;
+  
+}
+
+
+.updateOrderForm>div>svg{
+    position: absolute;
+    transform: translate(1vmax,1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+
+
+
+
+
+
+
+#createProductBtn{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300;
+    width: 100%;
+
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
+}
+#createProductBtn:hover{
+    background-color: rgb(223, 85, 61);
+}
+
+@media screen and (max-width:600px) {
+  
+    .newProductContainer{
+      
+        background-color: rgb(255, 255, 255);
+     
+    }
+  
+        .updateOrderForm{
+          
+           width: 90vw;
+         
+           
+            padding: 3vmax;
+          
+            height: 80%;
+            transition: all 0.5s;
+        }
+    
+   
+        .updateOrderForm>div>select{
+    padding: 2.5vmax 5vmax;
+
+}
+
+.updateOrderForm>div>svg{
+    font-size: 3vmax;
+    transform: translate(1vmax,2.5vmax);
+}
+
+
+#createProductBtn{
+    padding: 1.8vmax;
+
+
+}
+}

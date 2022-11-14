@@ -1,0 +1,171 @@
+.confirmOrderPage{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    font-weight: 500;
+    background-color: white;
+   
+}
+.confirmOrderPage>div:last-child{
+    border-left: 1px solid rgba(109, 106, 106, 0.253);
+}
+.confirmShippingArea{
+    padding: 5vmax;
+    padding-bottom: 0;
+}
+.confirmShippingArea>p{
+ 
+    font-size: 2vmax;
+}
+.confirmShippingAreaBox>div{
+    display: flex;
+
+}
+.confirmCartItemContainer,
+.confirmShippingAreaBox{
+    padding: 2vmax;
+}
+
+.confirmShippingAreaBox>div>p{
+    font: 400;
+    color: black;
+}
+.confirmShippingAreaBox>div>span{
+    text-transform: capitalize;
+
+    color: rgb(37, 35, 32);
+    margin-left: 1vmax;
+}
+.confirmCartItems{
+    padding: 5vmax;
+    padding-top: 2vmax;
+}
+.confirmCartItems>p{
+    font-size: 2vmax;
+}
+.confirmCartItemContainer{
+    max-height: 20vmax;
+
+    overflow-y: auto;
+}
+
+.confirmCartItemContainer>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+    align-items: center;
+}
+.confirmCartItemContainer>div>img{
+    width: 4vmax;
+}
+.confirmCartItemContainer>div>a{
+    width: 60%;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    color: black;
+}
+.orderSummery{
+    padding: 7vmax;
+}
+.orderSummery>p{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 1vmax;
+    width: 100%;
+    font-size: 2vmax;
+}
+.orderSummery>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+    color: black;
+    font-weight: 500;
+}
+.orderSummaryTotal{
+    display: flex;
+    padding: 2vmax 0;
+    justify-content:space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.329);
+    font-weight: 500;
+}
+.orderSummery>button{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300;
+    width: 100%;
+
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.116); */
+}
+.orderSummery>button:hover{
+    background-color: rgb(187, 77, 58);
+}
+@media screen and (max-width:600px) {
+    .confirmOrderPage{
+        grid-template-columns: 1fr;
+        height: unset;
+    }
+    .confirmOrderPage>div:last-child{
+        border-top: 1px solid rgba(109, 106, 106, 0.253);
+    }
+    .confirmShippingArea>p{
+        font-size: 6vw;
+    }
+    .confirmShippingArea{
+      
+       font-size: 4vw;
+        padding-bottom: 0;
+    }
+    .confirmShippingAreaBox>div{
+        display: flex;
+        margin: 6vw 0;
+    
+    }
+    .confirmShippingAreaBox>div>p{
+        font-size: 4vw;
+    
+    }
+    .confirmCartItems>p{
+        font-size: 6vw;
+    }
+    .confirmCartItemContainer{
+        max-height: 50vw;
+    }
+    .confirmCartItemContainer>div{
+        font-size: 4vw;
+        margin: 4vw 0;
+    }
+    .confirmCartItemContainer>div>img{
+
+        width: 10vw;
+
+    }
+    .confirmCartItemContainer>div>a{
+        margin:0;
+        width: 30%;
+    }
+    .confirmCartItemContainer>div>span{
+        font-size: 4vw;
+    }
+    .orderSummery{
+        padding: 15vw;
+    }
+    .orderSummery>div>div{
+        font-size: 4vw;
+    }
+    .orderSummaryTotal{
+        font-size: 4vw;
+        padding: 5vw 0;
+    }
+    .orderSummery>button{
+        padding: 3.5vw;
+        font-size: 5vw;
+    }
+}

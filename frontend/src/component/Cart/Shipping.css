@@ -1,0 +1,116 @@
+.checkOut{
+    margin-top: 1.5vmax;
+}
+
+.shippingContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+
+    
+}
+.shippingBox{
+    width: 25vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.shippingHeading{
+    text-align: center;
+    font-size: 400 0.8vmax;
+    font-size: 1.2vmax;
+    color: black;
+    width: 50%;
+    margin: auto;
+    padding: 1vmax;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+.shippingForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   height: 80%;
+   justify-content: space-evenly;
+   padding: 2vmax;
+   align-items: center;
+}
+.shippingForm>div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.shippingForm>div>input
+{
+    padding: 1vmax 3vmax;
+    padding-right: 1vmax;
+    border: 1px solid black;
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    font-size: 1vmax;
+    outline: none;
+    width: 100%;
+
+
+}
+.shippingForm>div>select{
+    padding: 1vmax 3vmax ;
+    /* padding-right: 1vmax; */
+    border: 1px solid black;
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    font-size: 1vmax;
+    outline: none;
+    width: 100%;
+}
+.shippingForm>div>svg{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.623);
+transform: translateX(1vmax);
+}
+.shippingBtn{
+    border: navajowhite;
+    width: 100%;
+    padding: 1vmax;
+    background-color: tomato;
+    color: white;
+    outline: none;
+    margin: 2vmax;
+    transition: all 0.5s;
+
+}
+.shippingBtn:hover{
+    background-color: rgb(218, 68, 42);
+}
+
+@media screen and (max-width:600px) {
+    .shippingBox{
+        width: 100vw;
+        height: 95vh;
+    
+    }
+    .shippingHeading{
+        font-size:2.5vmax ;
+        margin-top: 1vmax;
+    }
+    .shippingForm{
+        padding: 11vw;
+    }
+    .shippingForm>div>input{
+        padding: 5vw 10vw;
+        font-size: 2vmax;
+    }
+    .shippingForm>div>select{
+        padding: 5vw 10vw;
+        font-size: 2vmax;
+    }
+    .shippingForm>div>svg{
+        font-size: 6vw;
+    }
+    .shippingBtn{
+        padding: 4vw;
+    }
+}

@@ -1,0 +1,80 @@
+.productReviewsContainer{
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: white;
+    height: 100vh;
+}
+.productReviewForm{
+    width: 28rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vmax;
+    background-color: white;
+    
+}
+.productReviewsFormHeading{
+    color: rgb(0, 0, 0);
+    font: 300 2rem "Arial";
+ 
+}
+.productReviewForm>div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+    /* border: 1px solid red; */
+
+}
+.productReviewForm>div>input{
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 4px;
+    font-size: 300 0.9vmax cursive;
+    outline: navajowhite;
+}
+.productReviewForm>div>svg{
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6rem;
+    color: gold;
+}
+/* .productReviewsFormHeading{
+    text-align: center;
+    color: #00000096;
+} */
+.productReviewsFormHeading2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width:600px) {
+    .productReviewsContainer{
+        width: 100vw;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid rgba(0, 0, 0, 0.226);
+        border-left: none;
+    }
+    .productReviewForm{
+        max-width: 100vw;
+    }
+    .productReviewForm>div>input{
+        padding: 2.5vmax 5vmax;
+        padding-right: 1vmax;
+        font-size: 1.7vmax;
+        max-width: 100%;
+     
+    }
+    .productReviewForm>div>svg{
+        font-size: 3vmax;
+    }
+    .productReviewsFormHeading2{
+       margin-bottom: 50vw;
+    }
+}

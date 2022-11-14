@@ -1,0 +1,35 @@
+.orderSuccess{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5vmax;
+    gap: 2vmax;
+    
+}
+.orderSuccess>svg{
+    font-size: 5vmax;
+    color: white;
+    background-color: tomato;
+    border-radius:100%;
+
+}
+.orderSuccess>p{
+    font-size: 2vmax;
+    color: rgba(0, 0, 0, 0.842);
+}
+.orderSuccess>a{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(61, 70, 64);
+    color: white;
+    padding: 1vmax;
+    border-radius: 5%;
+    transition: all 0.5s;
+}
+.orderSuccess>a:hover{
+    background-color: rgb(119, 97, 97);
+}
