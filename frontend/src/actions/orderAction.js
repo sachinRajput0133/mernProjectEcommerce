@@ -45,7 +45,7 @@ export const createOrder = (order) => async (dispatch) => {
   }
 };
 
-// my orders
+// my order
 
 export const myOrders = () => async (dispatch) => {
   try {
